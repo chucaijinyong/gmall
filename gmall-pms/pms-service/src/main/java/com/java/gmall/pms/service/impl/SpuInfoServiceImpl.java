@@ -15,7 +15,7 @@ import com.java.gmall.pms.vo.ProductAttrValueVO;
 import com.java.gmall.pms.vo.SkuInfoVO;
 import com.java.gmall.pms.vo.SpuInfoVO;
 import com.java.gmall.sms.dto.SkuSaleDTO;
-import io.seata.spring.annotation.GlobalTransactional;
+//import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.amqp.core.AmqpTemplate;
@@ -81,7 +81,7 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfo> impleme
 	}
 
 	@Override
-	@GlobalTransactional
+//	@GlobalTransactional
 	public void saveSpuInfoVO(SpuInfoVO spuInfoVO) {
 		/// 1.保存spu相关
 		// 1.1. 保存spu基本信息 spu_info

@@ -7,12 +7,12 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.1.131:8848
+        server-addr: 192.168.85.1:8848
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/guli_pms?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
-    password: 123456
+    password: root
   redis:
     host: localhost
   rabbitmq:
@@ -32,8 +32,8 @@ mybatis-plus:
 aliyun:
   oss:
     file:
-      bucketname: xxx
+      bucketname: chucai-public
       endpoint: oss-cn-beijing.aliyuncs.com
       filehost: gmall
-      keyid: xxx
-      keysecret: xxx      
+      keyid: LTAIbD6T4nGJrIlr
+      keysecret: S9Xmjhc7k0s9qVXVfior2GPURTcUNF
